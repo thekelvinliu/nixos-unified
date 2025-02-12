@@ -88,7 +88,7 @@ in
           modules = [
             ../configurations
             nixosModules.common
-            darwinModules.nix-darwin
+            # darwinModules.nix-darwin
             mod
           ] ++ lib.optional home-manager darwinModules.home-manager;
         };
